@@ -1,7 +1,7 @@
 # manuscript_ID_2025_09_23409_code
 code repository for manuscript entitled "Cloud Changes Weaken Atmospheric Solar Absorption Over Land as Climate Warms" (manuscript ID: 2025-09-23409)
 
-The CERES EBAF4.2.1 radiation data are availablie through: https://ceres-tool.larc.nasa.gov/ord-tool/jsp/EBAF421Selection.jsp
+The CERES EBAF4.2.1 radiation data are available through: https://ceres-tool.larc.nasa.gov/ord-tool/jsp/EBAF421Selection.jsp
 
 The CERES SSF1DEG level3 cloud cover product can be found: https://ceres-tool.larc.nasa.gov/ord-tool/jsp/SSF1degEd42Selection.jsp
 
