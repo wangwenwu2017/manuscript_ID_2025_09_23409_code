@@ -11,13 +11,13 @@ from scipy.stats import theilslopes, kendalltau, norm
 import pymannkendall as mk
 
 year_num = 21
-year_start = 2004
+year_start = 2003
 # 定义文件路径
 file1 = '../data/CERES_EBAF_Ed4.2.1_Subset_200101-202412.nc'  # 2000年3月-2013年1月
 combined_ds = xr.open_dataset(file1)
 
-target_start = '2004-01-01'
-target_end = '2024-12-31'
+target_start = '2003-01-01'
+target_end = '2023-12-31'
 
 # 提取目标时间段（2004-01到2013-12）
 clear_toa_down = combined_ds['solar_mon'].sel(time=slice(target_start, target_end))
