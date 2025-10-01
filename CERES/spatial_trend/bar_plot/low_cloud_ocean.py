@@ -53,7 +53,7 @@ for j in range(len(low_centers)):
     count = np.sum(mask)
     count_values[j] = count
 
-    if count > 50:  # Minimum sample size threshold
+    if count > 100:  # Minimum sample size threshold
         mean_values[j] = np.nanmean(cre_trend[mask])
         std_values[j] = np.nanstd(cre_trend[mask])
 
