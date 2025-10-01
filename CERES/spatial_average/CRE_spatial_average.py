@@ -6,7 +6,7 @@ import cartopy.crs as ccrs
 import matplotlib.colors as mcolors
 
 year_num = 11
-year_start = 2013
+year_start = 2003
 # Define file paths
 file1 = '../data/CERES_EBAF_Ed4.2.1_Subset_200101-202412.nc'
 combined_ds = xr.open_dataset(file1)
