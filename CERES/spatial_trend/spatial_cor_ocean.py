@@ -49,7 +49,7 @@ for i in range(len(high_centers)):
             (cloud_low >= cloud_low_bins[j]) &
             (cloud_low < cloud_low_bins[j+1])
         )
-        if np.sum(mask) > 50:  # Minimum sample size threshold=50
+        if np.sum(mask) > 100:  # Minimum sample size threshold=50
             mean_grid[j, i] = np.nanmean(cre_trend[mask])
 
 # Create grid coordinates
